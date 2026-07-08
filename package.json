@@ -1,0 +1,27 @@
+{
+  "name": "bosphorus-lounge-ai-receptionist",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production-ready AI restaurant receptionist for Bosphorus Lounge, deployable to Vercel.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^7.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "lucide-react": "^0.468.0",
+    "resend": "^4.0.1",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.17.0",
+    "eslint-plugin-react": "^7.37.2",
+    "prettier": "^3.4.2"
+  }
+}
